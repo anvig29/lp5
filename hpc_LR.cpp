@@ -51,7 +51,9 @@ time = end - start;
 
 int main()
 {
-int n = 1000000; // 10 million elements
+int n;
+cout<<"Enter no of elements:";
+cin>>n;
 vector<double> x(n), y(n);
 
  for (int i = 0; i < n; ++i)
